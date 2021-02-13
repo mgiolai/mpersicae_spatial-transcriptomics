@@ -161,14 +161,14 @@ str(ldat)
 #Create named vector for colouring the PCA plot
 samples <- c()
 samples <- colnames(ldat$spliced)
-cell.colors <- c(rep("#F0F8FF",4), #darkred
-                 rep("#9f4646",4), #okker
-                 rep("#550c5c",4), #purple
-                 rep("#3d6838",4), #green
-                 rep("#7c7c7c",4), #grey
-                 rep("#1be246",3), #light green
-                 rep("#e2df1b",4), #yellow
-                 rep("#f94e04", 4)) #orange
+cell.colors <- c(rep("#F0F8FF",4),
+                 rep("#9f4646",4),
+                 rep("#550c5c",4),
+                 rep("#3d6838",4),
+                 rep("#7c7c7c",4),
+                 rep("#1be246",3),
+                 rep("#e2df1b",4),
+                 rep("#f94e04", 4)
 names(cell.colors) <- samples
 
 ###################
